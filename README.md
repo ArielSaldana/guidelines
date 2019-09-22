@@ -7,9 +7,10 @@ Microservices Diagram
 The microservices will consts of 4 major parts sitting in two different layers which are the HTTP Context / Business Logic.
 
 * [Router](#router)
-* Controller
-* Service
-* Data Access Layer
+* [Controller](#controller)
+* [Service](#service)
+* [Data Access Layer](#data-access-layer)
+
 
 ## Router
 
