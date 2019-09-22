@@ -32,6 +32,7 @@ Queries to databased should be defined here, and POJO's should be defined to sha
 
 For the sake of clarity, we should split files accordingly into the four sections. Notice that config files are held at the project root level and utilities method sit outside of the API folder, which should be restricted to API related logic.
 
+```
 ├── api
 │   ├── controllers
 │   │   ├── login-controller.js
@@ -50,3 +51,4 @@ For the sake of clarity, we should split files accordingly into the four section
     └── logger.js
 
 7 directories, 9 files
+```
