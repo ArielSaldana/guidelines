@@ -38,6 +38,7 @@ For the sake of clarity, we should split files accordingly into the four section
 │   │   ├── login-controller.js
 │   │   └── signup-controller.js
 │   ├── data-access
+│   │   └── user-service.js
 │   ├── middlewares
 │   │   └── user-authorization
 │   ├── routes
@@ -50,5 +51,5 @@ For the sake of clarity, we should split files accordingly into the four section
 └── utilities
     └── logger.js
 
-7 directories, 9 files
+7 directories, 10 files
 ```
