@@ -28,3 +28,25 @@ The service layer is where the business logic is implemented. Hashing passwords 
 
 Queries to databased should be defined here, and POJO's should be defined to share data between this layer and the service layer.
 
+# Project Folder Structure
+
+For the sake of clarity, we should split files accordingly into the four sections. Notice that config files are held at the project root level and utilities method sit outside of the API folder, which should be restricted to API related logic.
+
+├── api
+│   ├── controllers
+│   │   ├── login-controller.js
+│   │   └── signup-controller.js
+│   ├── data-access
+│   ├── middlewares
+│   │   └── user-authorization
+│   ├── routes
+│   │   ├── login-route.js
+│   │   └── signup-route.js
+│   └── services
+│       ├── login-service.js
+│       └── signup-service.js
+├── config.json
+└── utilities
+    └── logger.js
+
+7 directories, 9 files
