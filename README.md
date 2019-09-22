@@ -1,7 +1,6 @@
-# guidelines
-Microservices In Node JS
+# NodeJS Microservices guidelines
 
-Take the following diagram:
+Microservices Diagram
 
 ![API DMM](./assets/dmm/http-request-dmm.svg?sanitize=true)
 
